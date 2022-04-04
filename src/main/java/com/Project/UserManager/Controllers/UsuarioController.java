@@ -1,7 +1,4 @@
 package com.Project.UserManager.Controllers;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 import com.Project.UserManager.models.Usuario;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +24,7 @@ public class UsuarioController {
     }
 
     @RequestMapping(value = "usuarios")
-    public List<Usuario> getUsuarios() {
+    public List<Usuario> Getusuarios() {
         List<Usuario> usuarios = new ArrayList<>();
 
         Usuario usuario1 = new Usuario();
@@ -61,21 +58,6 @@ public class UsuarioController {
 
     }
 }
-=======
->>>>>>> 147cb6d (creacion rest)
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-public class UsuarioController {
 
-    @RequestMapping(value = "prueba")
-    public String prueba() {
-      return "prueba";
-    }
-}
-<<<<<<< HEAD
-=======
->>>>>>> 840bdf6fe3574cd1680be77900eb815c4e9b7918
->>>>>>> 147cb6d (creacion rest)
